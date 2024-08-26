@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-
 import './App.css'
 import Navbar from './Companentis/Navbar/Navbar'
 import Header from './Companentis/Navbar/Header/Header'
