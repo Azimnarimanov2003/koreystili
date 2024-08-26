@@ -1,0 +1,31 @@
+{
+    "Navbar": {
+       "nav": "Toshkentda joylashgan koreys tili o'quv markazi va TOPIK imtihoniga tayyorgarlik",
+       "nav1": "Nega biz",
+       "nav2": "Natijalar",
+       "nav3": "Kurslar",
+       "nav4": "Ko’p beriladigan savollar",
+       "nav5": "Hoziroq bog'laning"
+    },
+    "Header":{
+        "hed" : "----  3 oyda Koreys tilida gapirishni boshlang",
+        "hed1" : "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati",
+        "hed2" : " 5 oyda Topikdan 6 darajagacha olishda yordam beramiz",
+        "hed3" : "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyat",
+        "hed4" : "Bepul darsga yozilish ",
+        "hed5" : "Birinchi darsga bepul yoziling"
+    },
+    "section" :{
+        "text" : "   TOPIK academy aniq siz uchun agar siz:    ",
+        "text1" : "   TOPIK academy aniq siz uchun agar siz:Qisqa muddat ichida Koreys tilida gapirishni istaysiz    ",
+        "text2" : "  Koreys tili o’rganib o’z karyerangizni qurmoqchisiz     ",
+        "text3" : "   Topik sertifikatini olib Koreyaning nufuzli universitetlariga GRANT yutmoqchisiz    ",
+        "text4" : " Janubiy Koreya davlatida o’qish va ishlash uchun ketmoqchisiz      ",
+        "text5" : "  Koreys tilini o’rta darajda bilasiz va darajangizni oshirmoqchisiz     ",
+        "text6" : " Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz      ",
+        "text7" : "   Ha bu men "
+       
+    }
+
+ }
+ 

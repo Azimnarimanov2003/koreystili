@@ -1,0 +1,97 @@
+.card-box{
+    
+    width: 380px;
+    height: 450px;
+    gap: 0px;   border-radius: 40px;
+background-color: #F7F7F7;
+    position: relative;
+}
+.card-img{
+    position: absolute;
+    width: 380px;
+height: 201px;
+bottom: 280px;
+border-radius: 0px 76px 0px 0px;
+
+}
+.card-button{
+  
+padding: 0px 12px;
+
+border-radius: 29.47px ;
+color: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+
+}
+.card-text{
+    width: 233px;
+    height: 92px;
+
+}
+.btn-subtext{
+    color: white;
+}
+.card-title{
+    width: 104px;
+font-size: 24px;
+font-weight: 400;
+}
+.card-list{
+    position: absolute;
+    top: 160px;
+    padding: 0 20px;
+    display: flex;
+}
+.card-subitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card.text{
+    width: 233px;
+height: 92px;
+font-size: 15px;
+font-weight: 400;
+
+
+}
+.sariq{
+    color: #E5B207;
+
+}
+.card-subtext{
+    width: 86px;
+height: 15px;
+font-size: 11px;
+font-weight: 300;
+color: #F7F7F7;
+background: #61ABA7;
+padding: 11px 20px;
+border-radius: 30px;
+margin-top: 40px;
+}
+.card-money{
+    width: 122px;
+height: 21px;
+
+font-size: 16px;
+font-weight: 500;
+color:#4B9895;
+margin-bottom: 13px;
+}
+.card-bigbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-name{
+    width: 659px;
+height: 44px;
+font-size: 36px;
+font-weight: 400;
+line-height: 43.67px;
+text-align: center;
+margin:  0 auto;
+padding:  50px 0;
+}

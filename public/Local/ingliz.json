@@ -1,0 +1,29 @@
+{
+    "Navbar": {
+       "nav": "Korean language learning center and TOPIK exam preparation located in Tashkent",
+       "nav1": "Why us",
+       "nav2": "Results",
+       "nav3": "Courses",
+       "nav4": "Frequently Asked Questions",
+       "nav5": "Contact us now"
+    },
+    "Header": {
+        "hed": "---- Start speaking Korean in 3 months",
+        "hed1": "Opportunity to study in South Korean universities with up to 100% scholarship",
+        "hed2": "We will help you achieve TOPIK level 6 in 5 months",
+        "hed3": "Get a high TOPIK level and the opportunity to study and work in South Korea",
+        "hed4": "Enroll in a free lesson",
+        "hed5": "Sign up for the first free lesson"
+    },
+    "section": {
+        "text": "TOPIK Academy is right for you if you:",
+        "text1": "TOPIK Academy is right for you if you: want to start speaking Korean in a short time",
+        "text2": "You want to learn Korean and build your career",
+        "text3": "You want to obtain a TOPIK certificate and win a scholarship to prestigious universities in Korea",
+        "text4": "You want to study and work in South Korea",
+        "text5": "You know Korean at an intermediate level and want to improve your proficiency",
+        "text6": "You have been studying Korean for many years but are not achieving results",
+        "text7": "Yes, this is me"
+    }
+  
+}

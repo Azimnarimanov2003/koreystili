@@ -1,0 +1,161 @@
+.section-name{
+    width: 656px;
+height: 44px;
+top: 785px;
+left: 632px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy-Medium;
+font-size: 36px;
+font-weight: 400;
+line-height: 43.67px;
+text-align: center;
+color: #333333;
+}
+.section-list{
+    display: flex;
+    align-items: center;
+}
+.section-img{
+    width: 103px;
+height: 103px;
+top: 923px;
+left: 908px;
+gap: 0px;
+opacity: 0px;
+background-color:  #C5F2CBA6;
+width: 103px;
+height: 103px;
+top: 923px;
+left: 908px;
+border-radius: 50%;
+padding: 15px;
+
+}
+.section-text{
+    width: 289.17px;
+height: 46px;
+top: 1072.52px;
+left: 454px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 18.82px;
+font-weight: 400;
+line-height: 22.59px;
+text-align: center;
+font-family: Gilroy-Bold;
+font-size: 18.82px;
+font-weight: 400;
+line-height: 23.3px;
+text-align: center;
+
+}
+.section-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: 14px;
+}
+.section-button{
+    width: Fixed (334.29px)px;
+    height: Fixed (78px)px;
+    top: 1487px;
+    left: 793px;
+    padding: 1px 38px 1px 38px;
+    gap: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 0px 0px #418E8B;
+    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+
+
+
+}
+.section-subtext{
+    font-family: Gill Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.47px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+
+}
+.section-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Overlayning rangini to'ldiring */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Modalni barcha elementlardan ustun qo'yish */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%; /* Modalning kengligi */
+    max-width: 400px; /* Modalning maksimal kengligi */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1001; /* Modal kontentining boshqa elementlardan ustun qo'yish */
+  }
+  
+  .modal-label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal-submit-btn,
+  .modal-close-btn {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .modal-submit-btn {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .modal-close-btn {
+    background: #f44336;
+    color: white;
+  }
+  
+  .modal-submit-btn:hover,
+  .modal-close-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .modal-close-btn {
+    margin-left: 10px;
+  }
+  .section-subtitle{
+    font-size: 18px;
+
+
+  }
+  
