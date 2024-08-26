@@ -13,7 +13,7 @@ import enTr from "../public/Local/ingliz.json";
 
 i18n
   .use(Backend)
-  .use(LanguageDetector)
+  // .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
