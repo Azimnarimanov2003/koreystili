@@ -17,8 +17,6 @@ import Footer from './Companentis/Navbar/Footer/Footer'
 
 
 function App() {
-  
-
 
   return (
     <>
