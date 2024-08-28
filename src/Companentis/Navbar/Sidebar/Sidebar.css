@@ -1,10 +1,6 @@
 .sidebar-img{
     width: 483px;
 height: 374px;
-top: 3161px;
-left: 360px;
-gap: 0px;
-opacity: 0px;
 
 }
 .sidebar-pic{
@@ -39,3 +35,128 @@ padding:  30px 0;
 color:  #333333;
 ;        
 }
+
+
+  @media (min-width: 968px) and (max-width: 1199px) {
+   
+  }
+  @media (min-width:767px) and (max-width:968px) {
+    .sidebar-img{
+        width: 423px;
+        height: 314px;
+    }
+    .sidebar-name{
+        width: 530px;
+ padding:  10px 0;
+
+    }
+    .sidebar-title{
+        width: 230px;
+    height: 13px;
+    font-size: 14px;
+    
+}
+.sidebar-text{
+    width: 230px;
+
+font-size: 14px;
+}
+  }
+  
+  /* Kichik ekranlar uchun (Mobil) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .sidebar-img{
+        width: 293px;
+        height: 284px;
+      
+    
+    }
+   
+    .sidebar-name{
+        width: 450px;
+ padding:  10px 0;
+font-size: 29px;
+    }
+    .sidebar-title{
+        width: 200px;
+    height: 19px;
+    font-size: 13px;
+    
+}
+.sidebar-text{
+    width: 200px;
+
+font-size: 12px;
+}
+  }
+  
+  /* Juda kichik ekranlar uchun (Extra small devices) */
+  @media (min-width: 375px) and (max-width:576px ) {
+    .sidebar-img{
+        width: 253px;
+        height: 254px;
+    }
+   
+    .sidebar-name{
+        width: 300px;
+font-size: 19px;
+    }
+    .sidebar-title{
+        width: 300px;
+    height: 19px;
+    font-size: 12px;
+ 
+}
+.sidebar-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar-box{
+   
+        display: flex;
+        flex-wrap: wrap;
+       flex-direction: column;
+
+}
+.sidebar-text{
+    width: 300px;
+
+font-size: 12px;
+}
+.sidebar-box{
+    display: flex;
+     flex-wrap: wrap;
+}
+  }
+  
+
+  @media (max-width:376px) {
+    .sidebar-img{
+        width: 203px;
+        height: 174px;
+    }
+   
+    .sidebar-name{
+        width: 200px;
+font-size: 14px;
+    }
+    .sidebar-title{
+        width: 200px;
+    height: 19px;
+    font-size: 12px;
+ 
+}
+.sidebar-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar-text{
+    width: 200px;
+
+font-size: 12px;
+}
+.sidebar-box{
+    display: flex;
+     flex-wrap: wrap;
+}
+  }

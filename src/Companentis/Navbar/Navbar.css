@@ -7,19 +7,19 @@ a {
     text-decoration: none;
 }
 
-.navbar-list{
+.navbar-box{
     display: flex;
     align-items: center;
  justify-content: space-between;
 }
 .navbar-img{
     width: 164px;
- 
 }
-.navbar-subitem{
+.navbar-link{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
+    width: 850px;
 }
 
 .navbar-item{
@@ -40,6 +40,106 @@ font-weight: 400;
 line-height: 15.28px;
 text-align: left;
 color: black;
+width: 190px;
+padding: 5px 15px;
 }
+.navbar-sublink_a{
+    font-family: Gilroy;
+font-size: 16px;
+font-weight: 400;
+line-height: 15.28px;
+text-align: left;
+color: black;
+width: 170px;
+padding: 5px 15px;
+}
+.modal-content{
+    display: flex;
+    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.modal {
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    /* position: relative; */
+   position: fixed;
+    left: 550px;
+    top: 50px;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+   width: 100px;
+}
+.menu-btn {
+    display: none;
+  }
+
+@media (max-width: 800px) {
+    .navbar .links {
+        display: none;
+    }
+.navbar-link{
+    width: 768px;
+}
+
+
+    .navbar .menu-btn {
+        display: block;
+    }
+
+    .modal.show {
+        display: flex;
+    }
+    .navbar-subbox {
+        display: none;
+      }
+}
+@media (max-width: 568px){
+    .modal {
+   
+       position: fixed;
+        left: 350px;
+        top: 50px;
+    }
+}
+@media (max-width: 368px){
+    .modal {
+   
+       position: fixed;
+        left: 50px;
+        top: 50px;
+    }
+}
+@media (max-width: 1100px){
+    
+.navbar-link{
+    width: 790px;
+}
+}
+@media (max-width: 1000px){
+    
+    .navbar-link{
+        width: 590px;
+    }
+    }
+    @media (max-width: 850px){
+    
+        .navbar-link{
+            width:  350px;
+            display: flex;
+        align-items: start;
+        justify-content: right;
+        gap: 2px ;
+            }
+        }
 
 

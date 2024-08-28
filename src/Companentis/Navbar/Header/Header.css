@@ -99,3 +99,133 @@ position: absolute;
     align-items: center;
  
 }
+.container {
+    border: 1px solid red; /* 2px qalinlikda qizil chegara */
+    padding: 10px; /* Ichki bo'shliq */
+  }
+
+
+  
+  
+  @media (min-width: 968px) and (max-width: 1199px) {
+    .header-pic { 
+        width: 582px;
+        height: 366px;
+        top: 160px;
+    }
+    .header-title{
+        width: 605px;
+        height: 155px;
+        font-size: 39px;
+    font-weight: 300;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 968px) {
+    .header-pic { 
+        width: 582px;
+        height: 366px;
+        top: 160px;
+        left: 200px;
+        opacity: 0.4; /* Dastlab rasm to'liq ko'rinadi */
+        
+    }
+    .header-title{
+        width: 605px;
+        height: 155px;
+        font-size: 39px;
+    font-weight: 300;
+    }
+  }
+  
+  /* Kichik ekranlar uchun (Mobil) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .header-pic { 
+        width: 582px;
+        height: 366px;
+        top: 100px;
+        left: 10px;
+        opacity: 0.4; /* Dastlab rasm to'liq ko'rinadi */
+        
+    }
+    .header-title{
+        width: 405px;
+        height: 155px;
+        font-size: 19px;
+    font-weight: 300;
+    }
+    .header-text{
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .header-subtext{
+        font-size: 12px;
+        width: 200px;
+    }
+    .header-btn{
+        padding: 10px 20px;
+    gap: 5px;
+    border-radius: 30px;
+    }
+  }
+  
+  /* Juda kichik ekranlar uchun (Extra small devices) */
+  @media (min-width: 448px) and (max-width:576px ) {
+    .header-pic { 
+      display: none;
+    }
+    .header-title{
+        width: 375px;
+        height: 105px;
+        font-size: 19px;
+    font-weight: 500;
+    line-height: 45px;
+    }
+    .header-btn{
+        padding: 5px 13px;
+    gap: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    }
+    .header-text{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .header-subtext{
+        font-size: 9px;
+        width: 120px;
+    }
+
+  }
+  
+
+  @media  (max-width:448px ) {
+   
+    .header-pic { 
+        display: none;
+      }
+      .header-title{
+          width: 275px;
+          height: 105px;
+          font-size: 15px;
+      font-weight: 500;
+      line-height: 45px;
+      }
+      .header-btn{
+          padding: 2px 7px;
+      gap: 5px;
+      border-radius: 10px;
+      font-size: 9px;
+      }
+      .header-text{
+          font-size: 8px;
+          font-weight: 200;
+      }
+      .header-subtext{
+          font-size: 7px;
+          width: 100px;
+      }
+      .header-subtitle{
+        font-size: 8px;
+      }
+  }
+  

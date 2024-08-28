@@ -53,8 +53,8 @@ const {t , i18n} = useTranslation();
                 <p className="section-text">
                 {t("section.text3")}                </p>
               </li>
-            </ul>
-            <ul className="section-list">
+
+
               <li className="section-item">
                 <img src={sectionLogo3} alt="logo" className="section-img" />
                 <p className="section-text">
@@ -70,7 +70,10 @@ const {t , i18n} = useTranslation();
                 <p className="section-text">
                 {t("section.text6")}                </p>
               </li>
+              
+              
             </ul>
+          
             <button className="section-button" onClick={openModal}>
               <p className="section-subtext">{t("section.text7")}</p>
             </button>

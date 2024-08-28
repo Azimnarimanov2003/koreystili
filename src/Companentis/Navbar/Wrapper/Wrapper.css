@@ -91,3 +91,55 @@ opacity: 0px;
   .modal-close-btn:hover {
     background-color: #e04343;
   }
+
+ 
+  @media (min-width: 968px) and (max-width: 1199px) {
+     .wrapper-img{ 
+      padding: 10px;
+    width: 306.65px;
+    height: 407.84px;
+  } 
+  }
+  @media (min-width: 767px) and (max-width: 968px) {
+    .wrapper-img{ 
+      padding: 6px;
+    width: 276.65px;
+    height: 377.84px;
+  } 
+  }
+  
+  /* Kichik ekranlar uchun (Mobil) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .wrapper-img{ 
+      padding: 3px;
+    width: 176.65px;
+    height: 277.84px;
+  } 
+  .wrapper-name{
+    font-size: 16px;
+  }
+  }
+  
+  /* Juda kichik ekranlar uchun (Extra small devices) */
+  @media (min-width: 375px) and (max-width:576px ) {
+    .wrapper-img{ 
+      padding: 2px;
+    width: 136.65px;
+    height: 207.84px;
+  } 
+  .wrapper-name{
+    font-size: 13px;
+  }
+  }
+  
+
+  @media  (max-width:376px ) {
+    .wrapper-img{ 
+      padding: 2px;
+    width: 106.65px;
+    height: 177.84px;
+  } 
+  .wrapper-name{
+    font-size: 11px;
+  }
+  }

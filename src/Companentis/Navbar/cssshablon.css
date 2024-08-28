@@ -1,8 +1,3 @@
-.content-video{
-    width: 100%;
-height: 507px;
-padding: 40px 0;
-}
 
   /* O'rta o'lchamli ekranlar uchun (Tablet) */
   @media (min-width: 968px) and (max-width: 1199px) {
@@ -11,36 +6,26 @@ padding: 40px 0;
     }
   }
   @media (min-width: 767px) and (max-width: 968px) {
-    .content-video{
-        width: 100%;
-    height: 407px;
-    padding: 40px 0;
+    .header {
+      /* O'rta ekranlar uchun uslublar */
     }
   }
   
   /* Kichik ekranlar uchun (Mobil) */
   @media (min-width: 576px) and (max-width: 767px) {
-    .content-video{
-        width: 100%;
-    height: 407px;
-    padding: 40px 0;
+    .header {
+      /* Kichik ekranlar uchun uslublar */
     }
   }
   
   /* Juda kichik ekranlar uchun (Extra small devices) */
   @media (min-width: 375px) and (max-width:576px ) {
-    .content-video{
-        width: 100%;
-    height: 307px;
-    padding: 10px 0;
+    .header {
+      /* Juda kichik ekranlar uchun uslublar */
     }
   }
   
 
   @media(max-width:376px) {
-    .content-video{
-        width: 100%;
-    height: 207px;
-    padding: 5px 0;
-    }
+    
   }

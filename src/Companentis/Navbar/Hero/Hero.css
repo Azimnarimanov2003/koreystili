@@ -1,13 +1,10 @@
 .hero-button{
-    width: Fixed (434.29px)px;
-    height: Fixed (100px)px;
-    padding: 1px 38px 1px 38px;
-    gap: 10px;
-    border-radius: 30px;
-    box-shadow: 0px 3px 0px 0px #418E8B;
-    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+   background: rgb(75, 75, 160);
 padding: 10px 20px;
-
+border-radius: 30px;
+box-shadow: 1px 2px 3px white;
+border: 1px solid white; /* 2px qalinlikda qizil chegara */
+    padding: 13px 15px; /* Ichki bo'shliq */
 }
 .hero-right{
     width: 450px;
@@ -34,8 +31,7 @@ color:#FFFFFF;
 .hero-name{
     width: 744px;
 height: 88px;
-top: 4302px;
-left: 563px;
+
 text-align: center;
 margin: 0 auto;
 font-family: Gilroy-Medium;
@@ -48,11 +44,9 @@ text-align: center;
 .hero-img{
     width: 330.49px;
 height: 416px;
-top: 4453px;
-left: 890px;
-gap: 0px;
+
 border-radius: 20.83px 0px 0px 0px;
-opacity: 0px;
+
 padding: 0 10px;
 }
 .hero-box{
@@ -133,3 +127,157 @@ padding: 0 10px;
     background-color: #999;
   }
   
+
+  
+ 
+  @media (min-width: 968px) and (max-width: 1199px) {
+    
+  }
+  @media (min-width: 767px) and (max-width: 968px) {
+   .hero-name{
+    width: 544px;
+    height: 88px;
+    font-size: 20px;
+   }
+   .hero-text{
+    width: 320px;
+    height: 66px;
+    font-size: 14px;
+    padding-top: 20px;
+   }
+   .btn-text {
+    width: 104px;
+    height: 20px;
+    font-size: 12.04px;
+    font-weight: 300;
+    color: #FFFFFF;
+   }
+   .hero-button{
+    padding: 5px 10px;
+   }
+   .hero-img {
+    width: 160.49px;
+    height: 276px;
+    padding-left: 2px;
+    padding-top: 40px;
+    padding: 20px 3px;
+   }
+  }
+  
+  /* Kichik ekranlar uchun (Mobil) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hero-name{
+      width: 444px;
+      height: 88px;
+      font-size: 20px;
+     }
+     .hero-text{
+      width: 220px;
+      height: 80px;
+      font-size: 14px;
+      padding-top: 20px;
+     }
+     .btn-text {
+      width: 79px;
+      height: 20px;
+      font-size: 9.04px;
+      font-weight: 300px;
+      color: #FFFFFF;
+     }
+     .hero-button{
+      padding: 5px 10px;
+
+     }
+     .hero-img {
+      width: 160.49px;
+      height: 276px;
+      padding-left: 2px;
+      padding-top: 40px;
+      padding: 20px 3px;
+     }
+    }
+  
+  
+  /* Juda kichik ekranlar uchun (Extra small devices) */
+  @media (min-width: 375px) and (max-width:576px ) {
+    .hero-name{
+      width: 284px;
+      height: 70px;
+      font-size: 12px;
+     }
+     .hero-text{
+      width: 240px;
+      height: 60px;
+      font-size: 11px;
+      padding-top: 20px;
+    margin: 0 auto;
+     }
+     .hero-box{
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .btn-text {
+      width: 59px;
+     border-radius: 10px;
+      font-size: 9.04px;
+      font-weight: 300px;
+      color: #FFFFFF;
+      margin: 0 auto;
+  margin-bottom: 10px;
+     }
+     .hero-button{
+    height: 35px;
+      border-radius: 20px;
+      margin: 0 auto;
+     }
+     .hero-img {
+      width: 160.49px;
+      height: 276px;
+      padding-left: 2px;
+      padding-top: 40px;
+      padding: 20px 3px;
+     }
+  }
+  
+
+  @media(max-width:376px) {
+    .hero-name{
+      width: 204px;
+      height: 30px;
+      font-size: 14px;
+      line-height: 23.67px;
+     }
+     .hero-text{
+      width: 240px;
+      height: 60px;
+      font-size: 11px;
+      padding-top: 20px;
+    margin: 0 auto;
+     }
+     .hero-box{
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .btn-text {
+      width: 59px;
+     border-radius: 10px;
+      font-size: 9.04px;
+      font-weight: 300px;
+      color: #FFFFFF;
+      margin: 0 auto;
+  margin-bottom: 10px;
+     }
+     .hero-button{
+    height: 35px;
+      border-radius: 20px;
+      margin: 0 auto;
+     }
+     .hero-img {
+      width: 160.49px;
+      height: 276px;
+      padding-left: 2px;
+      padding-top: 40px;
+      padding: 20px 3px;
+      display: none;
+     }
+  }
