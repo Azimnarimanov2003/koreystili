@@ -1,7 +1,4 @@
-.entery{
-padding-top: 250px;
 
-}
 .entery-list{
     display: flex;
     align-items: center;
@@ -30,7 +27,7 @@ box-shadow: 0px 0px 102.1px 1px #ABDDB1CC inset;
 .entery-btn{
   
     border-radius: 20px;
-    width: 351px;
+    width: 371px;
 height: 45px;
 background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
 box-shadow: 0px 4px 12.8px -6px #00000012;
@@ -56,10 +53,70 @@ font-size: 16px;
 font-weight: 400;
 }
 .entery-box{
-    width: 1197px;
-height: 298px;
+    /* width: 1197px; */
+/* height: 298px; */
 gap: 0px;
 border-radius: 10px ;
 background: linear-gradient(90deg, rgba(125, 202, 199, 0.442) 0%, rgba(197, 242, 203, 0.1365) 129.2%);
 
 }
+
+  /* O'rta o'lchamli ekranlar uchun (Tablet) */
+  @media (min-width: 968px) and (max-width: 1199px) {
+    .header {
+      /* O'rta ekranlar uchun uslublar */
+    }
+  }
+  @media (min-width: 767px) and (max-width: 968px) {
+    .header {
+      /* O'rta ekranlar uchun uslublar */
+    }
+  }
+  
+  /* Kichik ekranlar uchun (Mobil) */
+  @media (min-width: 576px) and (max-width: 767px) {
+ .entery-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .entery-input{
+    width: 200px;
+    height: 20px;
+ }
+ .entery-btn{
+    width: 240px;
+    height: 35px;
+ }
+  }
+  
+  /* Juda kichik ekranlar uchun (Extra small devices) */
+  @media (min-width: 375px) and (max-width:576px ) {
+    .entery-list{
+        display: flex;
+        flex-direction: column;
+     }
+     .entery-input{
+        width: 200px;
+        height: 20px;
+     }
+     .entery-btn{
+        width: 240px;
+        height: 35px;
+     }
+  }
+  
+
+  @media(max-width:376px) {
+    .entery-list{
+        display: flex;
+        flex-direction: column;
+     }
+     .entery-input{
+        width: 200px;
+        height: 20px;
+     }
+     .entery-btn{
+        width: 240px;
+        height: 35px;
+     }
+  }

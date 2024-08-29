@@ -1,7 +1,7 @@
 .footer{
     background-color: black;
 height: 200px;
-width: 1200px;
+width: 100%;
 }
 .footer-list{
     display: flex;
@@ -20,5 +20,23 @@ width: 1200px;
     width: 89.86px;
 height: 137px;
 
+}
+@media (max-width:650px){
+.footer-text{
+    display: none;
+}
+.footer-imglogo{
+    width: 39.86px;
+    height: 47px;
+}
 
+}
+@media (max-width:650px){
+    .footer-item{
+        display: flex;
+        flex-direction: column
+    }
+    .navbar-img{
+        width: 100px;
+    }
 }

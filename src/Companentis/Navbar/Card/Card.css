@@ -130,27 +130,138 @@ padding:  50px 0;
     
     
   }
+
+  .container{
+    border: 2px solid red;
+  }
   @media (min-width: 767px) and (max-width: 968px) {
-    .header {
-      /* O'rta ekranlar uchun uslublar */
-    }
+   
   }
   
   /* Kichik ekranlar uchun (Mobil) */
   @media (min-width: 576px) and (max-width: 767px) {
-    .header {
-      /* Kichik ekranlar uchun uslublar */
+    .card-name{
+     width: 100%;
+     height: 20%;
     }
+
   }
   
   /* Juda kichik ekranlar uchun (Extra small devices) */
   @media (min-width: 375px) and (max-width:576px ) {
-    .header {
-      /* Juda kichik ekranlar uchun uslublar */
+    .card-name{
+        width: 100%;
+        height: 20%;
+        font-size: 19px;
+       }
+       .card-img{
+        width: 100%;
+        height: 40%;
+       }
+       .card-title {
+        width: 84px;
+        font-size: 18px;
+        font-weight: 300;
     }
+    .card-text {
+        width: 98px;
+        height: 72px;
+        font-size: 11px;
+    }
+    .card-button{
+       
+            padding: 0px 5px;
+            border-radius: 19.47px;
+            color: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+            background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+        height: 30px;
+        margin-top: 27px;
+
+    }
+    .btn-subtext{
+        margin-top: 7px;
+        font-size: 10px;
+     
+    }
+    .card-money{
+        font-size: 12px;
+    }
+
+    .card-subtext{
+        margin-bottom: 80px;
+    }
+    .card-list{
+       
+        top: 160px;
+        padding: 0 20px;
+    
+        width: 300px;
+    }
+    .card-subitem{
+        top: 20px;
+        left: 150px;
+        position: absolute;
+     
+    }
+
+    
   }
   
 
   @media(max-width:376px) {
+    .card-name{
+        width: 100%;
+        height: 20%;
+        font-size: 19px;
+       }
+       .card-img{
+        width: 100%;
+        height: 40%;
+       }
+       .card-title {
+        width: 84px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .card-text {
+        width: 98px;
+        height: 72px;
+        font-size: 11px;
+    }
+    .card-button{
+       
+            padding: 0px 5px;
+            border-radius: 19.47px;
+            color: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+            background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+        height: 30px;
+        margin-top: 27px;
+
+    }
+    .btn-subtext{
+        margin-top: 7px;
+        font-size: 10px;
+     
+    }
+    .card-money{
+        font-size: 12px;
+    }
+
+    .card-subtext{
+        margin-bottom: 80px;
+    }
+    .card-list{
+       
+        top: 160px;
+        padding: 0 20px;
     
+        width: 300px;
+    }
+    .card-subitem{
+        top: 20px;
+        left: 150px;
+        position: absolute;
+     
+    }
+
   }

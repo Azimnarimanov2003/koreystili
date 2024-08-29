@@ -33,24 +33,19 @@ export default function Sidebar() {
                         <h4 className="sidebar-title">
                         GKS granti sizga nima beradi
                         </h4>
-        
-                    </li>
-                    <li className="sidebar-subitem">
                         <p className="sidebar-text">
                         Dastur boshlanganida va tugaganida Koreyaga borish hamda Koreyadan qaytish xarajatlari qoplanadi.
                         </p>
-                    </li>
-                    <li className="sidebar-subitem">
                         <p className="sidebar-text">
-                        Koreyaga yetib borganda joylashib olish uchun bir martalik to'lovberiladi. Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari).                        </p>
-                    </li>
-                    <li className="sidebar-subitem">
-                        <p className="sidebar-text">
-                        Til kursi va universitetning kontrak to'lovi to'liq to'lab beriladi (faqat magistr va doktorantlarga)... ko’proq                        </p>
-                    </li>
+                        Koreyaga yetib borganda joylashib olish uchun bir martalik to'lovberiladi.
+                         Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari). </p>
         
-                    
-                    
+                         <p className="sidebar-text">
+                        Til kursi va universitetning kontrak to'lovi 
+                        to'liq to'lab beriladi (faqat magistr va doktorantlarga)...
+                         ko’proq       </p>
+                    </li>
+                
                  </ul>
                 </div>
             </div>
