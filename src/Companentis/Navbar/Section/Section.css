@@ -15,6 +15,9 @@ color: #333333;
 .section-list{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
 }
 .section-img{
     width: 103px;
@@ -99,6 +102,13 @@ color: #FFFFFF;
     align-items: center;
     z-index: 1000; /* Modalni barcha elementlardan ustun qo'yish */
   }
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
   
   .modal-content {
     background: white;
@@ -159,7 +169,7 @@ color: #FFFFFF;
 
   }
   
-  @media (min-width: 968px) and (max-width: 1199px) {
+  @media (min-width: 968px) and (max-width: 1399px) {
     .section-list{
       display: flex;
       flex-wrap: wrap;

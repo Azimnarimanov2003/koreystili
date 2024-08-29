@@ -21,6 +21,8 @@ width: 100%;
 height: 137px;
 
 }
+
+
 @media (max-width:650px){
 .footer-text{
     display: none;

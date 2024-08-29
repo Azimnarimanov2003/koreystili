@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./Hero.css";
 import Marquee from "react-fast-marquee";
 import herologo from "../../../../public/avatar.png";
+import axios from 'axios'; // Axios import qilamiz
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,11 +17,26 @@ export default function Hero() {
     setIsModalOpen(false);
   };
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
+    const token = "7196997578:AAFgSoy6xNCV0sCfL0GJeO6u5o6RdE8mxds";
+    const chat_id = "2029939556";
 
-    console.log(`Ism: ${name}, Telefon raqam: ${phone}`);
-    closeModal(); 
+    const message = `Ism: ${name}\nTelefon raqam: ${phone}`;
+
+    try {
+      await axios.post(`https://api.telegram.org/bot${token}/sendMessage`, {
+        chat_id: chat_id,
+        text: message
+      });
+      alert("Xabar muvaffaqiyatli yuborildi!"); // Alert qo'shildi
+      setName('');
+      setPhone('');
+      closeModal(); 
+    } catch (error) {
+      console.error("Xatolik yuz berdi:", error);
+      alert("Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.");
+    }
   };
 
   return (
@@ -64,7 +80,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {}
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
