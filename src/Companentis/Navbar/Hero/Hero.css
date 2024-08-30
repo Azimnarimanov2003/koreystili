@@ -1,11 +1,20 @@
-.hero-button{
-   background: rgb(75, 75, 160);
-padding: 10px 20px;
-border-radius: 30px;
-box-shadow: 1px 2px 3px white;
-border: 1px solid white; /* 2px qalinlikda qizil chegara */
-    padding: 13px 15px; /* Ichki bo'shliq */
-}
+.hero-button  , .card-button{
+  
+    background-color: #5FACA9;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover  {
+    background-color: white; 
+    color: #5FACA9;;
+  
+  }
+
 .hero-right{
     width: 450px;
 }
@@ -99,8 +108,8 @@ padding: 0 10px;
   
 
   .modal-submit-btn {
-    background-color: #61dafb;
-    color: #fff;
+    background-color: #5FACA9;
+  color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -114,8 +123,8 @@ padding: 0 10px;
   }
   
   .modal-close-btn {
-    background-color: #ccc;
-    color: #000;
+    background-color: rgb(241, 116, 116);
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -268,10 +277,16 @@ padding: 0 10px;
   margin-bottom: 10px;
      }
      .hero-button{
-    height: 35px;
-      border-radius: 20px;
-      margin: 0 auto;
-     }
+      background-color: #5FACA9;
+      color: white;
+      padding: 7px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    
      .hero-img {
       width: 160.49px;
       height: 276px;

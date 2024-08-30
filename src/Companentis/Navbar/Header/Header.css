@@ -55,19 +55,20 @@ color:  #333333;
     display: flex;
 }
 .header-btn{
-    width: Fixed (334.29px)px;
-height: Fixed (78px)px;
-top: 569px;
-left: 359px;
-padding: 18px 45px 18px 45px;
-gap: 10px;
-border-radius: 30px;
-opacity: 0px;
-background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
-box-shadow: 0px 3px 0px 0px #418E8B;
-color: white;
+        background-color: #5FACA9;
+        color: white;
+        padding: 13px 24px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #4F8F8A; 
+      }
+      
 
-}
 .header-subtitle{
     width: 241px;
 height: 20px;

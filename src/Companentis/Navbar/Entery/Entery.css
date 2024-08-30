@@ -17,25 +17,21 @@
     width: 331px;
 height: 35px;
 
-background: #BFF1C5;
-box-shadow: 0px 4px 12.8px -6px #00000012;
+background-color: #e4fdfc;
 font-family: Montserrat;
 font-size: 15px;
 font-weight: 500;
-box-shadow: 0px 0px 102.1px 1px #ABDDB1CC inset;
+
 }
 .entery-btn{
   
     border-radius: 20px;
     width: 371px;
 height: 45px;
-background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
-box-shadow: 0px 4px 12.8px -6px #00000012;
 font-family: Montserrat;
 font-size: 15px;
 font-weight: 500;
-box-shadow: 0px 0px 102.1px 1px #ABDDB1CC inset;
-
+background-color: #e4fdfc;
 
 } 
 .entery-title{

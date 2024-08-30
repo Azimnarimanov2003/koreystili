@@ -54,15 +54,16 @@ export default function Navbar() {
         {isModalOpen && (
           <div className="modal" onClick={() => setIsModalOpen(false)}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              <span className="close-btn" onClick={() => setIsModalOpen(false)}>&times;</span>
               <a href="#nega_biz" className="navbar-sublink">{t("Navbar.nav1")}</a>
               <a href="#pastga_utish" className="navbar-sublink">{t("Navbar.nav2")}</a>
               <a href="#kurslar" className="navbar-sublink">{t("Navbar.nav3")}</a>
               <a href="#savollar" className="navbar-sublink">{t("Navbar.nav4")}</a>
-                <select className="language-select" onChange={handleChange}>
-            <option value="uz">O'zbek</option>
-            <option value="ru">Русский</option>
-            <option value="en">English</option>
-          </select>
+              <select className="language-select" onChange={handleChange}>
+                <option value="uz">O'zbek</option>
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+              </select>
             </div>
           </div>
         )}
