@@ -60,7 +60,7 @@ padding: 5px 15px;
 .modal-content{
     display: flex;
     align-items: center;
-    align-items: start;
+   
     flex-direction: column;
     padding: 5px 10px;
     width: 100px;

@@ -54,6 +54,10 @@ function Wrapper() {
           </Marquee>
           <Marquee direction='left'>
             <img src={wrapperlogo} alt="img" className="wrapper-img" />
+
+
+
+            
             <img src={wrapperlogo} alt="img" className="wrapper-img" />
             <img src={wrapperlogo} alt="img" className="wrapper-img" />
             <img src={wrapperlogo} alt="img" className="wrapper-img" />
@@ -66,7 +70,7 @@ function Wrapper() {
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2>O'z ma'lumotlaringizni qoldiring</h2>
+            <h6 className='wrapper-subtitle'>O'z ma'lumotlaringizni qoldiring</h6>
             <p className="wrapper-subtext">
               Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi
             </p>

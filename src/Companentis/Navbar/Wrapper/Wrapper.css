@@ -92,6 +92,16 @@ opacity: 0px;
     background-color: #e04343;
   }
 
+  .wrapper-subtext{
+    margin: 0 auto;
+    width: 80%;
+    padding: 7px 0;
+  }
+  .wrapper-subtitle{
+    margin: 0 auto;
+    width: 80%;
+    padding: 7px 0;
+  }
  
   @media (min-width: 968px) and (max-width: 1199px) {
      .wrapper-img{ 
