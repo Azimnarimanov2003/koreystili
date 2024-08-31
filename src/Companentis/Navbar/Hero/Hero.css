@@ -237,19 +237,24 @@ padding: 0 10px;
       flex-wrap: wrap;
      }
      .btn-text {
-      width: 59px;
-     border-radius: 10px;
-      font-size: 9.04px;
+      
+      font-size: 11.04px;
       font-weight: 300px;
       color: #FFFFFF;
-      margin: 0 auto;
-  margin-bottom: 10px;
+      padding-top: 10px;
      }
-     .hero-button{
-    height: 35px;
-      border-radius: 20px;
-      margin: 0 auto;
-     }
+     
+      .hero-button {
+        width: 120px;
+        height: 35px;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
      .hero-img {
       width: 160.49px;
       height: 276px;

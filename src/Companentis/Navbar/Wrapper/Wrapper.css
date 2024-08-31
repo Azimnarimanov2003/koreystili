@@ -140,6 +140,16 @@ opacity: 0px;
   .wrapper-name{
     font-size: 13px;
   }
+  .wrapper-box{
+    font-size: 15px;
+  }
+  .header-btn {
+    padding: 10px 25px;
+    gap: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+  
+}
   }
   
 

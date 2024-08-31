@@ -207,6 +207,18 @@ position: absolute;
       font-weight: 500;
       line-height: 45px;
       }
+      .header-title {
+        width: 275px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+      header-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
       .header-btn{
           padding: 2px 7px;
       gap: 5px;

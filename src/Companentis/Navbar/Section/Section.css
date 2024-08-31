@@ -236,7 +236,7 @@ text-align: center;
       display: flex;
       flex-wrap: wrap;
      justify-content: space-around;
-     height: 700px;
+     height: 400px;
 
     }
     .section-img{
@@ -254,7 +254,7 @@ text-align: center;
     }
     .section-button{
       font-size: 3px;
-      padding: 1px 17px;
+      /* padding: 1px 17px; */
       font-weight: 50px;
     }
     .section-subtext{
