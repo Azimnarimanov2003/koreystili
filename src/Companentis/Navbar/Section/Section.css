@@ -175,6 +175,18 @@ text-align: center;
      justify-content: space-around;
      height: 450px;
 
+
+
+     .modal-content {
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      width: 70%; /* Modalning kengligi */
+      max-width: 200px; /* Modalning maksimal kengligi */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      z-index: 1001; /* Modal kontentining boshqa elementlardan ustun qo'yish */
+    }
     }
     .section-img{
       width: 73px;

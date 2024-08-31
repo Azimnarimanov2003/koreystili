@@ -64,7 +64,10 @@ color:  #333333;
         transition: background-color 0.3s ease;
       }
       
-      .button:hover {
+      .header-btn:hover {
+        background-color: #4F8F8A; 
+      }
+      .section-button:hover {
         background-color: #4F8F8A; 
       }
       
@@ -101,10 +104,6 @@ position: absolute;
  
 }
 
-
-
-  
-  
   @media (min-width: 968px) and (max-width: 1199px) {
     .header-pic { 
         width: 582px;
