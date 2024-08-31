@@ -1,175 +1,190 @@
-.gallery-item{
+.gallery-item {
     width: 300px;
-/* height: 228px; */
-padding: 0px 20px;
-border-radius: 10px ;
-box-shadow: 1px 1px 20px rgb(222, 222, 230);
-position: relative;
-margin: 30px 0;
+    /* height: 228px; */
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(222, 222, 230);
+    position: relative;
+    margin: 30px 0;
 
 }
-.gallery-title{
-position: absolute;
-top: -40%;
+
+.gallery-title {
+    position: absolute;
+    top: -40%;
     width: 51px;
-height: 61px;
-color:  #FFFFFF;
-padding: 10px 15px;
-font-size: 50px;
-font-weight: 800;
-line-height: 61.25px;
-background-color:  #61ABA7;
-border-radius: 10px;
-/* margin: 5; */
- 
-}
-.gallery-box{
-    padding: 30px 0;
-    
-}
-.gallery-subtitle{
- 
-    width: 375px;
-height: 30px;
-font-size: 25px;
-font-weight: 400;
-bottom: 100px;
+    height: 61px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61.25px;
+    background-color: #61ABA7;
+    border-radius: 10px;
+    /* margin: 5; */
 
 }
-.gallery-text{
+
+.gallery-box {
+    padding: 30px 0;
+
+}
+
+.gallery-subtitle {
+    max-width: 375px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 100px;
+
+}
+
+.gallery-text {
 
     width: 295px;
-height: 81px;
-font-size: 18px;
-font-weight: 400;
+    height: 81px;
+    font-size: 18px;
+    font-weight: 400;
 
 
 }
 
-.gallery-boss{
+.gallery-boss {
     display: flex;
     flex-direction: column;
 
     justify-content: space-between;
 
-  
-}
-.gallery-name{
 
-height: 44px;
-font-size: 36px;
-font-weight: 400;
-text-align: center;
-margin: 0 auto;
-color: #E5B207;
-padding: 50px 0;
 }
-.gallery-list{
+
+.gallery-name {
+
+    height: 44px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    color: #E5B207;
+    padding: 50px 0;
+}
+
+.gallery-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px; 
+    gap: 20px;
     height: 100%;
     justify-content: space-around;
 }
 
 
 
-  /* O'rta o'lchamli ekranlar uchun (Tablet) */
-  @media (min-width: 968px) and (max-width: 1199px) {
-    .gallery-list{
+/* O'rta o'lchamli ekranlar uchun (Tablet) */
+@media (min-width: 968px) and (max-width: 1199px) {
+    .gallery-list {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px; 
+        gap: 20px;
         height: 100%;
     }
-  }
-  @media (min-width: 767px) and (max-width: 968px) {
-    .gallery-list{
+}
+
+@media (min-width: 767px) and (max-width: 968px) {
+    .gallery-list {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px; 
-        height: 100%;
-    }
-    
-  }
-  
-  /* Kichik ekranlar uchun (Mobil) */
-  @media (min-width: 576px) and (max-width: 767px) {
-    .gallery-list{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 20px; 
+        gap: 20px;
         height: 100%;
     }
 
-    
-  }
-  
-  /* Juda kichik ekranlar uchun (Extra small devices) */
-  @media (min-width: 375px) and (max-width:576px ) {
-    .gallery-list{
+}
+
+/* Kichik ekranlar uchun (Mobil) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .gallery-list {
         display: flex;
         align-items: center;
-        gap: 20px; 
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 100%;
     }
-    .gallery-title{
+
+
+}
+
+/* Juda kichik ekranlar uchun (Extra small devices) */
+@media (min-width: 375px) and (max-width:576px) {
+    .gallery-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery-title {
         font-size: 30px;
         padding: 2px 5px;
         line-height: 51.25px;
-       padding-left: 19px;
-      top: -25%;
-      position: absolute;
+        padding-left: 19px;
+        top: -25%;
+        position: absolute;
     }
-    .gallery-subtitle{
+
+    .gallery-subtitle {
         font-size: 19px;
-       padding-top: 20px;
+        padding-top: 20px;
     }
-    .gallery-text{
+
+    .gallery-text {
         font-size: 14px;
         width: 100%;
     }
-    .gallery-name{
+
+    .gallery-name {
         font-size: 20px;
     }
-  }
-  
+}
 
-  @media(max-width:376px) {
-    .gallery-list{
+
+@media(max-width:376px) {
+    .gallery-list {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px; 
+        gap: 20px;
 
     }
 }
-    @media (max-width: 375px) {
-        .gallery-list{
-            display: flex;
-            align-items: center;
-            gap: 20px; 
-        }
-        .gallery-title{
-            font-size: 30px;
-            padding: 2px 5px;
-            line-height: 51.25px;
-           padding-left: 19px;
-          top: -25%;
-          position: absolute;
-        }
-        .gallery-subtitle{
-            font-size: 19px;
-           padding-top: 20px;
-        }
-        .gallery-text{
-            font-size: 13px;
-            width: 70%;
-        }
-        .gallery-name{
-            font-size: 17px;
-        }
-  }
+
+@media (max-width: 375px) {
+    .gallery-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery-title {
+        font-size: 30px;
+        padding: 2px 5px;
+        line-height: 51.25px;
+        padding-left: 19px;
+        top: -25%;
+        position: absolute;
+    }
+
+    .gallery-subtitle {
+        font-size: 19px;
+        padding-top: 20px;
+    }
+
+    .gallery-text {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .gallery-name {
+        font-size: 17px;
+    }
+}

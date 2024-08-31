@@ -21,7 +21,7 @@ function App() {
     <div className="div">
     <Navbar/>
     <Header/>
-    <Section/>
+    <Section/>/
     <Wrapper/>
     <Sidebar/>
     <Content/>
