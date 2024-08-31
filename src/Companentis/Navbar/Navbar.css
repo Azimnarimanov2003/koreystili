@@ -65,27 +65,33 @@ a {
     display: no;
 }
 
-/* Modal */
-.modal {
+.menu-btn{
     display: none;
-    position: fixed; /* Sahifaning yuqori o'ng burchagida joylashishi uchun */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Modal fonining qorong'ilashishi */
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; /* Modalning yuqorida ko'rsatilishini ta'minlash */
+}
+.modal-content{
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+flex-direction: column;
+width: 100%;
+}
+.modal {
+    /* position: fixed;  */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+ 
 }
 
 .modal.show {
-    display: flex; /* Modal ko'rsatilganida flex bilan joylashtiriladi */
+    display: flex; 
 }
 
 .modal-content {
     background-color: white;
-    padding: 20px; /* Modal ichidagi kontentning xossalari */
+    padding: 20px; 
     border-radius: 5px;
     position: relative;
     width: 300px; /* Modal o'lchami */
@@ -97,10 +103,11 @@ a {
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+    display: none;
 }
 
 
-/* Media Queries */
+
 @media (max-width: 800px) {
     .navbar .links {
         display: none;
@@ -121,6 +128,7 @@ a {
     .navbar-subbox {
         display: none;
     }
+ 
 }
 
 @media (max-width: 1100px) {
@@ -143,6 +151,9 @@ a {
         justify-content: right;
         gap: 2px;
     }
+   .modal{
+    display: block;
+   }
 }
 
 @media (max-width: 568px) {
@@ -152,3 +163,5 @@ a {
         top: 50px;
     }
 }
+
+

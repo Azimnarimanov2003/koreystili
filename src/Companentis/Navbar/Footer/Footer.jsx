@@ -15,15 +15,18 @@ export default function Footer() {
                     <img src={footerImg} alt="" className="footer-logo" />
                 </li>
                 <li className="footer-item">
-                    <p className="footer-text">
-                    Nega biz
+                    <p >
+
+                
+
+                   <a      className="footer-text" href="#nega_biz" > Nega biz </a> 
                     </p>
-                    <p className="footer-text">
-                    Natijalar                    </p>
-                    <p className="footer-text">
-                    Kurslar                    </p>
-                    <p className="footer-text">
-                    Ko’p beriladigan savollar                    </p>
+                    <p  >
+                    <a      className="footer-text" href="#pastga_utish" > Natijalar </a>  </p>
+                    <p >
+                    <a       className="footer-text" href="#kurslar#kurslar" > Kurslar</a>               </p>
+                    <p >
+                    <a      className="footer-text"  href="#pastga_utish" > Savollar </a>            </p>
                     
                 </li>
                 <li className="footer-item">

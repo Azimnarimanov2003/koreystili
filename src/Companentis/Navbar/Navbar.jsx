@@ -48,13 +48,16 @@ export default function Navbar() {
          
           
           </div>
-          <button className="menu-btn" onClick={() => setIsModalOpen(!isModalOpen)}>☰</button>
+        <div className="menu-btn">
+        <button  onClick={() => setIsModalOpen(!isModalOpen)}>☰</button>
+        </div>
         </div>
 
-        {isModalOpen && (
-          <div className="modal" onClick={() => setIsModalOpen(false)}>
+        {!isModalOpen && (
+          <div className="modal" onClick={() => setIsModalOpen(true)}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
               <span className="close-btn" onClick={() => setIsModalOpen(false)}>&times;</span>
+              
               <a href="#nega_biz" className="navbar-sublink">{t("Navbar.nav1")}</a>
               <a href="#pastga_utish" className="navbar-sublink">{t("Navbar.nav2")}</a>
               <a href="#kurslar" className="navbar-sublink">{t("Navbar.nav3")}</a>

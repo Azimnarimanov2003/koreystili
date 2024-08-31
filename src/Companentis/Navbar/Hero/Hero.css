@@ -64,7 +64,7 @@ padding: 0 10px;
     
 }
 .hero-left{
-    width: 900px;
+    width: 500px;
     
 }
 
@@ -148,6 +148,10 @@ padding: 0 10px;
     height: 88px;
     font-size: 20px;
    }
+   .hero-left{
+    width: 350px;
+    
+}
    .hero-text{
     width: 320px;
     height: 66px;
@@ -197,6 +201,10 @@ padding: 0 10px;
       padding: 5px 10px;
 
      }
+     .hero-left{
+      width: 290px;
+      
+  }
      .hero-img {
       width: 160.49px;
       height: 276px;
@@ -214,6 +222,10 @@ padding: 0 10px;
       height: 70px;
       font-size: 12px;
      }
+     .hero-left{
+      width: 320px;
+      
+  }
      .hero-text{
       width: 240px;
       height: 60px;
