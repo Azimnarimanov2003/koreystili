@@ -15,7 +15,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 780) {
-        setIsModalOpen(true);
+        // setIsModalOpen(true);
       } else {
         setIsModalOpen(false);
       }
@@ -53,7 +53,7 @@ export default function Navbar() {
         </div>
         </div>
 
-        {!isModalOpen && (
+        {isModalOpen && (
           <div className="modal" onClick={() => setIsModalOpen(true)}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
               <span className="close-btn" onClick={() => setIsModalOpen(false)}>&times;</span>
@@ -74,3 +74,5 @@ export default function Navbar() {
     </div>
   );
 };
+
+

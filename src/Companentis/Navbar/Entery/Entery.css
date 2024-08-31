@@ -10,13 +10,14 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    border: 1px solid #e4fdfc;
 }
 .entery-input{
     padding: 10px 20px;
     border-radius: 20px;
     width: 331px;
 height: 35px;
-
+border: 1px solid #e4fdfc;
 background-color: #e4fdfc;
 font-family: Montserrat;
 font-size: 15px;
@@ -28,11 +29,13 @@ font-weight: 500;
     border-radius: 20px;
     width: 371px;
 height: 45px;
+border: 1px solid #e4fdfc;
+
 font-family: Montserrat;
 font-size: 15px;
 font-weight: 500;
 background-color: #e4fdfc;
-
+transition: background-color 0.9s
 } 
 .entery-title{
     width: 241px;
@@ -115,4 +118,9 @@ background: linear-gradient(90deg, rgba(125, 202, 199, 0.442) 0%, rgba(197, 242,
         width: 240px;
         height: 35px;
      }
+  }
+  .entery-btn:hover{
+   border: 2px solid #e4fdfc;
+   color: rgb(87, 76, 76);
+background-color: #8ae7e4;
   }
