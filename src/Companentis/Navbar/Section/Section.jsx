@@ -87,8 +87,8 @@ function Section() {
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2>O'z ma'lumotlaringizni qoldiring</h2>
-            <h6 className="section-subtitle">
+            <h6 className='modal-text'>O'z ma'lumotlaringizni qoldiring</h6>
+            <h6 className="modal-subtext">
               Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi
             </h6>
             <form onSubmit={handleFormSubmit}>
