@@ -149,8 +149,8 @@ text-align: center;
 }
 
 .modal-text {
-  font-size: 12px;
-  padding: 2px 0;
+  font-size: 18px;
+  /* padding: 2px 0; */
 }
 
 .modal-subtext {
@@ -236,7 +236,7 @@ text-align: center;
       display: flex;
       flex-wrap: wrap;
      justify-content: space-around;
-     height: 400px;
+     height: 600px;
 
     }
     .section-img{
